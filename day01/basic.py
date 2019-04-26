@@ -1,5 +1,3 @@
-
-
 # comment
 
 '''
@@ -34,8 +32,8 @@ print("""
     黄河入海流。
 """)
 
-print('a', 'bc', 'def')
-print('a' + 'bc' + 'def')
+print('a', 'bc', 'def')  # 空格
+print('a' + 'bc' + 'def')  # 没有空格，字符串的拼接
 
 # Scanner
 """
