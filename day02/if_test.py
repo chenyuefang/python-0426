@@ -20,3 +20,9 @@ print('x')
 print('x')
 
 # python 不换行输出 x ？
+
+print('x', end='\n')
+print('x', end=' ')  # 不换行输出
+print('x', end=' ')
+
+
