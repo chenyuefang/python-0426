@@ -42,5 +42,6 @@ int i = scanner.nextInt();
 System.out.println(i);
 // 123
 """
+name = input()   #  接收字符输入
 
 print(input())
