@@ -1,5 +1,5 @@
 
-d = {'name': 'Tom', 'age': 19, 'gender': 'male', 'isMarried': False}
+d = {'name': 'Tom', 'age': 19, 'gender': 'male', 'isMarried': False}  # 声明
 
 print(d)
 
@@ -7,18 +7,20 @@ print(d['name'])
 
 d = {}
 
-d = dict(key=123)
+d = dict(key=123)  # 声明
 
 d['test_key'] = False
 
 d = {}.fromkeys(['name', 'age'])
-d = {}.fromkeys(['name', 'age'], 'value')  # ?
+d = {}.fromkeys(['name', 'age'], 'value')  # ?  初始化
 
 print(d)
 
 # print(d['name1'])
-print(d.get('name1', 'default value'))
+print(d.get('name1', 'default value'))  # 获取键对应的值
 
+
+# 更新
 d = {'key': 'value'}
 
 d['key'] = 'new value'
@@ -62,6 +64,7 @@ for key in d.keys():
 #
 # print(d)
 
+# 迭代
 import collections
 
 d = collections.OrderedDict()
