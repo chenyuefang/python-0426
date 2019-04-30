@@ -2,15 +2,15 @@ import os
 
 from urllib.request import urlopen
 
-# f = open('C:/python-0426.yaml', encoding='utf-8')
+# f = open('C:/new 1.txt', encoding='utf-8')
 # print(f.read())
 # f.close()
 
-with open('C:/python-0426.yaml', encoding='utf-8') as f:
+with open('C:/new 1.txt', encoding='utf-8') as f:
     # print(f.read(3))
     pass
 
-with open('C:/python-0426.yaml', encoding='utf-8') as f:
+with open('C:/new 1.txt', encoding='utf-8') as f:
     pass
     # line = f.readline()
     # while line:
@@ -22,12 +22,12 @@ s = ' Hello, World! '
 # print(s.lstrip())  # l:left
 # print(s.rstrip())  # r:right
 
-with open('C:/python-0426.yaml', encoding='utf-8') as f:
+with open('C:/new 1.txt', encoding='utf-8') as f:
     for x in f:
         # print(x.strip())
         pass
 
-with open('C:/python-0426.yaml', encoding='utf-8') as f:
+with open('C:/new 1.txt', encoding='utf-8') as f:
     for line in f.readlines():
         # print(line.strip())
         pass
