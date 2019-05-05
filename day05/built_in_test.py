@@ -25,12 +25,12 @@ d = set(b)
 print(c, d)
 print(type(a), type(b), type(c), type(d))
 
-# 别名
+# 别名 （函数名是指向一个函数对象的引用）
 absolute = abs
 print(absolute(-1))
 
 
-# 定义函数（规范：上下各有两行空行；小写，下划线区分单词）
+# 定义函数（[1] 规范：上下各有两行空行；小写，下划线区分单词  [2] 返回控制：1.没有返回值 None ,可写为 return ; 2.返回多个值,本质为： tuple)
 
 
 def add(x, y):
@@ -40,10 +40,13 @@ def add(x, y):
 print(add(1, 2))
 
 
+# 空函数
+# def some_functoin():
+#     pass
+
+
 def test():
     pass
-
-
 # return
 
 
