@@ -41,3 +41,38 @@ def fn_fibonacci(n):
 
 
 print(fn_fibonacci(10))
+
+
+#  4
+
+
+def move(n, a, b, c):
+    if n == 1:
+        print(a, '-', c)
+    else:
+        print(n)
+        move(n - 1, a, c, b)
+        print(a, '-', c)
+        move(n - 1, b, a, c)
+
+
+move(3, 'A', 'B', 'C')
+
+#  5
+
+
+yanghui = []
+
+for i in range(1, 11):
+    if i == 1:
+        list0 = [1]
+    elif i == 2:
+        list0 = [1, 1]
+    else:
+        list0 = [1] * i
+        for j in range(1, i - 1):
+            list0[j] = yanghui[-1][j - 1] + yanghui[-1][j]
+    yanghui.append(list0)
+
+for i in yanghui:
+    print(i)
