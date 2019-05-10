@@ -7,6 +7,8 @@ html = requests.get("https://movie.douban.com/top250")
 # 解析文档
 # 获取豆瓣top250中页面的标题
 selector = etree.HTML(html.text)
-title = selector.xpath("/html/head/title/text()")
+title = selector.xpath("/html/head/title/text()")  #  text 获取文字内容
 name = selector.xpath("//div[@class='hd']/a/span[1]/text()")
 print(name)
+
+# @属性名  @href
