@@ -33,7 +33,7 @@ def parse(url):
     print(all_movies)
 
     for movie in all_movies:
-        one_str = movie[0] + "," + movie[1] + "," + movie[2] + "," + movie[3] +movie[4]+ "\n"
+        one_str = movie[0] + "," + movie[1] + "," + movie[2] + "," + movie[3] + movie[4] + "\n"
         with open("movies3.txt", "a", encoding="utf-8") as f:
             f.write(one_str)
 

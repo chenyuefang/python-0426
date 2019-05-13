@@ -16,7 +16,7 @@ for movie_selector in movies_list:
     act = re.findall("主演: (.*?) ", director)
 
     star = movie_selector.xpath(".//div[@class='star']/span[@class='rating_num']/text()")[0]  # 评分
-    nums = movie_selector.xpath(".//div[@class='star']/span[last()]/text()")[0] # 人数
+    nums = movie_selector.xpath(".//div[@class='star']/span[last()]/text()")[0]  # 人数
     nums = nums.split("人评价")[0]
     comment = movie_selector.xpath(".//div[@class='bd']/p[@class='quote']/span[@class='inq']/text()")[0]  # 评语
     url = movie_selector.xpath(".//div[@class='hd']/a/@href")[0]
